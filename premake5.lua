@@ -26,6 +26,10 @@ project "imgui"
         "backends/imgui_impl_opengl3_loader.h"
 	}
 
+    includedirs {
+        "."
+    }
+
   filter "system:linux"
 		pic "On"
 		systemversion "latest"
